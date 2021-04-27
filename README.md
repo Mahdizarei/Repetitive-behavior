@@ -5,7 +5,8 @@
 
 parameters:
 * Input data: X and Y
-    X: animal movement along x axis across time (X= X(t)). \n
+    X: animal movement along x axis across time (X= X(t)). 
+    
     Y: animal movement along Y axis across time (Y= Y(t)). 
 * win size:
     - Time window size for clculation of the statistical parameters values in that interval.
