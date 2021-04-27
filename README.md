@@ -1,7 +1,9 @@
 
 
-> Repetitive behaviour anaysis
-Mahdi Zarei : 06-21-2019
+# Repetitive behaviour anaysis
+## Mahdi Zarei : 06-21-2019
+
+```python
 parameters
 > data; 
     X and Y
@@ -10,9 +12,9 @@ parameters
 > thigmo_thr;
     Thigmotaxis margin value        
 Return:
-> 1. repitition index and their durations
-> 2. thigmotaxix index and the rekated durations
-
+> 1. Repitition index 
+> 2. Repetitive movements duration
+'''
 
 ```python
 
