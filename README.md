@@ -1,7 +1,6 @@
 
 
 # Repetitive behaviour anaysis
-* Mahdi Zarei : 06-21-2019
 
 ### parameters:
 * Input data: X and Y
