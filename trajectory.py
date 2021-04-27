@@ -21,25 +21,11 @@ Return:
 class trajectory:
     def   __init__(self, X , Y , 
                    win = 500, 
+                   cutting_threshold = 400,
                    thigmo_thr = 0.1, 
                    thigmo_lower_thr = 0.3, 
-                   thigmo_upper_thr = 0.7,
-                   cutting_threshold = 400,
-                   immobility_tolerance_val = 0.01,
-                   rem_immobility = False):
-        
-        def remove_immobility (data, tolerance_val = 0.01 ):
-            diff_data = np.diff (data)
-            mobility_idx = []
-            for i in range(len(diff_data)):
-                if  np.abs( diff_data[i]) > tolerance_val:
-                    mobility_idx.append(i)
-            return mobility_idx        
-
-        if rem_immobility == True:
-            mobility_idx = remove_immobility (X, tolerance_val = immobility_tolerance_val)   
-            X = np.asarray (X)[mobility_idx]
-            Y = np.asarray (Y)[mobility_idx]
+                   thigmo_upper_thr = 0.7,                   
+                   immobility_tolerance_val = 0.01):        
 
         y_min = np.min(Y)
         y_max = np.max(Y)
@@ -83,8 +69,6 @@ class trajectory:
                  np.abs (dta_Y_std [i] - dta_Y_std [i+1] ) > 1e-2) and
                 sliding_win_stat_DEV [i] != 0 ):
                 randomness = randomness + 1           
-
-
         '''
         Repetition INTERVALS calculation;
         '''                
@@ -119,9 +103,5 @@ class trajectory:
                .format(Rep_idx/len(X), thigmotaxis_count/len(X) , randomness/len(X) ))
         
         self.repetition_idx = Rep_idx/len(X) 
-        self.thigmotaxis_idx = thigmotaxis_count/len(X)
-        self.randomness_idx = randomness/len(X)
         self.cycling_set = cycle_set  
-        
-        
-        
+        self.thigmotaxis_idx = thigmotaxis_count/len(X)
