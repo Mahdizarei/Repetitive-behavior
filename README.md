@@ -1,5 +1,5 @@
 
-'''
+
 > Repetitive behaviour anaysis
 Mahdi Zarei : 06-21-2019
 parameters
@@ -12,7 +12,7 @@ parameters
 Return:
 > 1. repitition index and their durations
 > 2. thigmotaxix index and the rekated durations
-'''        
+
 
 ```python
 
