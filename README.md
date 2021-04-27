@@ -12,7 +12,7 @@ parameters:
 * thigmo_thr:
     - Thigmotaxis margin value        
 Return:
-* 1. Repitition index (result.repetition_idx)
+* 1. Repitition index ( \b{result.repetition_idx} )
 * 2. Repetitive movements duration (result.cycling_set)
 
 
@@ -22,7 +22,7 @@ Return:
 >> from trajectory import *
 >> result = trajectory(X , Y , win = 500, cutting_threshold = 700)
 >> result.repetition_idx 
-     0.443333333333334
+     0.4433335
 >> result.cycling_set
     {[2,2004]: [4520, 8499]}
 '''
