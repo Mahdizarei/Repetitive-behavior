@@ -4,13 +4,13 @@
 ## Mahdi Zarei : 06-21-2019
 
 
-parameters
+parameters:
 * data; 
     X and Y
 * win size; 
-    Tie window size for clculation of the statistical parameters values in that interval
+    - Tie window size for clculation of the statistical parameters values in that interval
 * thigmo_thr;
-    Thigmotaxis margin value        
+    - Thigmotaxis margin value        
 Return:
 * 1. Repitition index 
 * 2. Repetitive movements duration
