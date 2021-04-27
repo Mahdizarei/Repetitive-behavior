@@ -10,6 +10,7 @@ parameters:
     - Tie window size for clculation of the statistical parameters values in that interval
 * thigmo_thr:
     - Thigmotaxis margin value        
+    
 Return:
 * 1. Repitition index ( result.repetition_idx )
 * 2. Repetitive movements duration ( result.cycling_set )
