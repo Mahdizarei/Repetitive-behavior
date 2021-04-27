@@ -12,13 +12,14 @@ parameters:
 * thigmo_thr:
     - Thigmotaxis margin value        
 Return:
-* 1. Repitition index ( \b{result.repetition_idx} )
-* 2. Repetitive movements duration (result.cycling_set)
+* 1. Repitition index ( ## result.repetition_idx )
+* 2. Repetitive movements duration ( ## result.cycling_set )
 
+
+## Testing the library on an example data:
 
 ```python
 
->> import numpy as np
 >> from trajectory import *
 >> result = trajectory(X , Y , win = 500, cutting_threshold = 700)
 >> result.repetition_idx 
