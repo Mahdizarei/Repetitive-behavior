@@ -3,18 +3,18 @@
 # Repetitive behaviour anaysis
 ## Mahdi Zarei : 06-21-2019
 
-```python
+
 parameters
-> data; 
+* data; 
     X and Y
-> win size; 
+* win size; 
     Tie window size for clculation of the statistical parameters values in that interval
-> thigmo_thr;
+* thigmo_thr;
     Thigmotaxis margin value        
 Return:
-> 1. Repitition index 
-> 2. Repetitive movements duration
-'''
+* 1. Repitition index 
+* 2. Repetitive movements duration
+
 
 ```python
 
