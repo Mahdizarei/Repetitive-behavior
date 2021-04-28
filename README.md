@@ -3,6 +3,7 @@
 # Repetitive behaviour anaysis
 
 ![Screenshot](data.png)
+![Screenshot](data_all_cycles.jpg)
 
 
 ### parameters:
