@@ -2,6 +2,8 @@
 
 # Repetitive behaviour anaysis
 
+![Alt text](F:/repetitive_brahviour/data.png?raw=true "Title")
+
 ### parameters:
 * Input data: X and Y
     - X: animal movement along x axis across time (X= X(t)).     
