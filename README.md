@@ -22,8 +22,8 @@
 ```python
 >> from trajectory import *
 >> result = trajectory(X , Y , win = 500, cutting_threshold = 700)
->> result.repetition_idx 
-     0.4433335
->> result.cycling_set
-    {[2,2004]: [4520, 8499]}
+>> print(result.repetition_idx)
+     0.18703874538745388
+>> print(result.cycling_set)
+    {0: [0, 374], 1: [422, 476], 2: [497, 1308], 3: [1310, 1698], 4: [1715, 1985], 5: [2002, 2357], 6: [2364, 2721], 7: [2775, 2796], 8: [2820, 3229], 9: [3275, 3747]}
 '''
