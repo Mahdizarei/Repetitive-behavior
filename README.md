@@ -2,7 +2,8 @@
 
 # Repetitive behaviour anaysis
 
-![Alt text](F:/repetitive_brahviour/data.png?raw=true "Title")
+![Screenshot](data.png)
+
 
 ### parameters:
 * Input data: X and Y
