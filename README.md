@@ -1,7 +1,7 @@
 
 
 ## Dahlén, Amelia, Mahdi Zarei, Adam Melgoza, Mahendra Wagle, and Su Guo. "THC-induced behavioral stereotypy in zebrafish as a model of psychosis-like behavior." Scientific reports 11, no. 1 (2021): 1-13.
-## Click onn the [link](https://www.nature.com/articles/s41598-021-95016-4) to see the manuscript.
+## Click on the [link](https://www.nature.com/articles/s41598-021-95016-4) to see the manuscript.
 
 
 
